@@ -13,6 +13,7 @@ conda env create -f environment.yml
 conda activate TFABS
 ```
 # Test
+The TFPfinder and SerotypeLinker model weights required for testing are stored in the Zenodo repository（10.5281/zenodo.20079952） and need to be downloaded in advance before testing
 ## TFPfinder
 A model for predicting tail fiber proteins from protein sequences. Prepare protein sequences in FASTA (.faa) format following the provided example, then run:
 ```bash
@@ -26,7 +27,7 @@ python predict_serotypelinker.py --csv example/serotypelinker_example.csv --grap
 # Reproduce TFPfinder and SerotypeLinker from scratch
 - Follow the Installation steps to configure the environment, which includes all the software packages required for training and testing the model
 - Download this repository, which contains all the code needed for training and testing
-- All the data required for training and testing the model has been processed and can be obtained from this Zenodo repository（
+- All the data required for training and testing the model has been processed and can be obtained from this Zenodo repository（10.5281/zenodo.20079952）
 
 # System Requirements
 - Linux (Ubuntu 20.04 recommended)
