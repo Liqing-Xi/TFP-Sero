@@ -1,0 +1,67 @@
+# =========================
+# HuggingFace ecosystem
+# =========================
+
+fair-esm==2.0.0
+transformers==4.48.1
+accelerate==1.6.0
+peft==0.15.1
+tokenizers==0.21.1
+safetensors==0.5.3
+huggingface-hub==0.30.1
+einops==0.8.1
+
+
+# =========================
+# PyTorch Geometric
+# =========================
+
+--find-links https://data.pyg.org/whl/torch-2.0.0+cu118.html
+
+torch-scatter==2.1.2
+torch-sparse
+torch-cluster
+torch-spline-conv
+torch-geometric==2.6.1
+
+
+# =========================
+# DGL ecosystem
+# =========================
+
+dgl==1.1.2
+torchdata==0.6.1
+torchtext==0.15.2
+
+
+# =========================
+# Bioinformatics
+# =========================
+
+biotite==0.41.2
+
+
+# =========================
+# Visualization
+# =========================
+
+matplotlib==3.10.1
+seaborn==0.13.2
+
+
+# =========================
+# Web app
+# =========================
+
+flask==3.1.1
+
+
+# =========================
+# Utilities
+# =========================
+
+filelock
+fsspec
+regex
+sympy
+psutil
