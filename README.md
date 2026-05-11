@@ -7,5 +7,6 @@ TFABS is a deep-learning framework for identifying prophage-derived tail fiber p
 - NVIDIA Driver >= 520
 - GPU memory >= 16GB
 # Installation
-conda env create -f environment.yml
-conda activate TFABS
+- conda env create -f environment.yml
+- conda activate TFABS
+
