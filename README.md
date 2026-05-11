@@ -10,14 +10,18 @@ TFABS is a deep-learning framework for identifying prophage-derived tail fiber p
 - conda env create -f environment.yml
 - conda activate TFABS
 # Test
+
 ## TFPfinder
+
 A model for predicting tail fiber proteins from protein sequences.
+
+Prepare protein sequences in FASTA (.faa) format following the provided example, then run:
+
 ```bash
 python predict_tfpfinder.py --input example/tfpfinder_example.faa
-SerotypeLinker
-
-A model for predicting host serotype recognition of tail fiber proteins.
-
-Prepare a CSV file following the provided example and generate the corresponding graph representations, then run:
+```
+## SerotypeLinker
+A model for predicting host serotype recognition of tail fiber proteins. Prepare a CSV file following the provided example and generate the corresponding graph representations. Then run:
+```bash
 python predict_serotypelinker.py --csv example/serotypelinker_example.csv --graph example/graphs
-
+```
