@@ -15,5 +15,7 @@ A model for predicting tail fiber proteins from protein sequences.
 ```bash
 python predict_tfpfinder.py --input example/tfpfinder_example.faa
 
-
-
+## SerotypeLinker
+A model for predicting host serotype recognition of tail fiber proteins.
+```bash
+python predict_serotypelinker.py --csv example/serotypelinker_example.csv --graph example/graphs
