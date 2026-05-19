@@ -9,6 +9,8 @@ TFABS is a deep-learning framework for identifying prophage-derived tail fiber p
 # Installation
 Install the environment required for training and testing the model, and run:
 ```bash
+git clone https://github.com/Liqing-Xi/TFABS-framework.git
+cd 
 conda env create -f environment.yml
 conda activate TFABS
 ```
