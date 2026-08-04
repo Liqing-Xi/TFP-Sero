@@ -9,8 +9,8 @@ TFP-Sero is a deep-learning framework for identifying prophage-derived tail fibe
 # Installation
 Install the environment required for training and testing the model, and run:
 ```bash
-git clone https://github.com/Liqing-Xi/TFP-Sero framework.git
-cd TFP-Sero framework
+git clone https://github.com/Liqing-Xi/TFP-Sero.git
+cd TFP-Sero
 conda env create -f environment.yml
 conda activate TFABS
 ```
