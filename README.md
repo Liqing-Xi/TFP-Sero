@@ -1,5 +1,5 @@
-# TFABS-framework
-TFABS is a deep-learning framework for identifying prophage-derived tail fiber proteins and decoding serotype-associated features in Salmonella. It combines a TFP identification module (TFPfinder) and a multimodal serotype association model (SerotypeLinker) integrating Transformer and graph neural networks.
+# TFP-Sero framework
+TFP-Sero is a deep-learning framework for identifying prophage-derived tail fiber proteins and decoding serotype-associated features in Salmonella. It combines a TFP identification module (TFPfinder) and a multimodal serotype association model (SerotypeLinker) integrating Transformer and graph neural networks.
 
 # Overview of project 
 - scripts: Contains code related to model training, graph construction, and ablation experiments
@@ -9,8 +9,8 @@ TFABS is a deep-learning framework for identifying prophage-derived tail fiber p
 # Installation
 Install the environment required for training and testing the model, and run:
 ```bash
-git clone https://github.com/Liqing-Xi/TFABS-framework.git
-cd TFABS-framework
+git clone https://github.com/Liqing-Xi/TFP-Sero framework.git
+cd TFP-Sero framework
 conda env create -f environment.yml
 conda activate TFABS
 ```
