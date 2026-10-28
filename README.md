@@ -12,7 +12,7 @@ Install the environment required for training and testing the model, and run:
 git clone https://github.com/Liqing-Xi/TFP-Sero.git
 cd TFP-Sero
 conda env create -f environment.yml
-conda activate TFABS
+conda activate TFP-Sero
 ```
 # Test
 The TFPfinder and SerotypeLinker model weights required for testing are stored in the Zenodo repository（10.5281/zenodo.20079952） and need to be downloaded in advance before testing
